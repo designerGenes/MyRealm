@@ -1,14 +1,8 @@
-//
-//  MyRealmApp.swift
-//  MyRealm
-//
-//  Created by Jaden Nation on 5/24/23.
-//
-
+import RealmSwift
 import SwiftUI
 
 @main
-struct MyRealmApp: App {
+struct MyRealmApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
             ContentView()
